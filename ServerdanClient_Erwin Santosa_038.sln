@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_Erwin Santosa_038", "ServerdanClient_Erwin Santosa_038\Server_Erwin Santosa_038.csproj", "{DE30CDBB-A35E-49EA-A653-590178CA8B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Erwin Santosa_038", "Client_Erwin Santosa_038\Client_Erwin Santosa_038.csproj", "{F5184570-9C67-4600-AE0B-E6F183BA7513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE30CDBB-A35E-49EA-A653-590178CA8B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE30CDBB-A35E-49EA-A653-590178CA8B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE30CDBB-A35E-49EA-A653-590178CA8B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE30CDBB-A35E-49EA-A653-590178CA8B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5184570-9C67-4600-AE0B-E6F183BA7513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5184570-9C67-4600-AE0B-E6F183BA7513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5184570-9C67-4600-AE0B-E6F183BA7513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5184570-9C67-4600-AE0B-E6F183BA7513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B510117-B7B9-4D97-A358-01004C22586F}
+	EndGlobalSection
+EndGlobal
