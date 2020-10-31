@@ -48,20 +48,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(327, 109);
+            this.label2.Location = new System.Drawing.Point(337, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 17);
+            this.label2.Size = new System.Drawing.Size(46, 17);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Server ON";
+            this.label2.Text = "label2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(256, 159);
+            this.label3.Location = new System.Drawing.Point(337, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 17);
+            this.label3.Size = new System.Drawing.Size(46, 17);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Klik OFF untuk Mematikan Server";
+            this.label3.Text = "label3";
             // 
             // button1
             // 
@@ -81,6 +81,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "OFF";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 

@@ -25,9 +25,9 @@ namespace ServerdanClient_Erwin_Santosa_038
             try
             {
                 hostObj = new ServiceHost(typeof(Matematika));
-                hostObj.Open();
-                Console.WriteLine("Server is Ready!!!");
-                Console.ReadLine();
+                hostObj.Close();
+                label2.Text = "Server ON";
+                label3.Text = "Klik OFF untuk Mematikan Server";
                 hostObj.Close();
             }
             catch (Exception ex)
@@ -41,6 +41,25 @@ namespace ServerdanClient_Erwin_Santosa_038
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ServiceHost hostObj = null;
+            try
+            {
+                hostObj = new ServiceHost(typeof(Matematika));
+                hostObj.Close();
+                label2.Text = "Server OFF";
+                label3.Text = "Klik ON untuk Mengaktifkan Server";
+                hostObj.Close();
+            }
+            catch (Exception ex)
+            {
+                hostObj = null;
+                Console.WriteLine(ex.Message);
+                Console.ReadLine();
+            }
         }
     }
 }
